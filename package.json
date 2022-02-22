@@ -1,5 +1,4 @@
 {
-  "private": false,
   "displayName": "Govee Ultimate",
   "name": "homebridge-ultimate-govee",
   "author": {
@@ -38,6 +37,7 @@
     "@nestjs/config": "^1.1.6",
     "@nestjs/core": "^8.2.4",
     "@nestjs/event-emitter": "^1.0.0",
+    
     "@types/aws-iot-device-sdk": "^2.2.4",
     "@types/js-yaml": "^4.0.5",
     "async-await-mutex-lock": "^1.0.9",
@@ -47,6 +47,7 @@
     "base64-arraybuffer": "^1.0.1",
     "class-transformer": "^0.5.1",
     "es6-shim": "^0.35.6",
+    "homebridge-ultimate-govee": "github:constructorfleet/homebridge-ultimate-govee",
     "is-base64": "^1.1.0",
     "js-yaml": "^4.1.0",
     "jwt-decode": "^3.1.2",
@@ -59,8 +60,8 @@
     "util": "^0.12.4"
   },
   "optionalDependencies": {
-    "@abandonware/noble": "^1.9.2-15",
-    "@abandonware/bluetooth-hci-socket": "^0.5.3-8"
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-8",
+    "@abandonware/noble": "^1.9.2-15"
   },
   "devDependencies": {
     "@types/jest": "^27.4.0",
